@@ -1,1 +1,1 @@
-# EdgeAI_Thermostat
+# Edge AI Thermostat
