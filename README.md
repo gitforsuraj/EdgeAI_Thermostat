@@ -22,14 +22,14 @@ Arduino libraries to install:
 6) TensorFlowLite.h (Version 1.15)
 
 Setup the project:
-1) Create main directory "EDGEAI_THERMOSTAT"
+1) Create main directory "EdgeAI_Thermostat"
 2) Create sub directory "Models"
 3) Create sub directory "Datasets"
 4) Save "dataset_v1.1.csv" in "Datasets" directory
 5) Save "model_v1.2.py" in "Models" directory
-6) Save "thermo_final.ino" in "EDGEAI_THERMOSTAT" directory
+6) Save "edgeaithermostat.ino" in "EdgeAI_Thermostat" directory
 
 Run the project:
-1) Open terminal to "EDGEAI_THERMOSTAT" directory 
+1) Open terminal to "EdgeAI_Thermostat" directory 
 2) Enter the following: while true; do python3 model_v1.2.py; sleep 604800; done
 3) Done!
