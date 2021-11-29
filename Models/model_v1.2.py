@@ -290,8 +290,8 @@ if __name__ == '__main__':
         model.summary()
 
         # build arduino file
-        os.system("arduino-cli compile -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/thermo_final.ino")
-        os.system("arduino-cli upload -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/thermo_final.ino")
+        os.system("arduino-cli compile -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/edgeaithermostat.ino")
+        os.system("arduino-cli upload -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/edgeaithermostat.ino")
 
     else: 
         # find newest and oldest files in directory 
@@ -326,8 +326,8 @@ if __name__ == '__main__':
         model.summary()
 
         # build arduino file
-        os.system("arduino-cli compile -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/thermo_final.ino")
-        os.system("arduino-cli upload -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/thermo_final.ino")
+        os.system("arduino-cli compile -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/edgeaithermostat.ino")
+        os.system("arduino-cli upload -p /dev/cu.usbmodem14301 --fqbn arduino:mbed_nano:nano33ble /Users/suraj/Documents/Arduino/thermo/edgeaithermostat.ino")
 
 
         # COMMAND USED TO RUN SCRIPT ON A TIMER
