@@ -116,6 +116,7 @@ byte arrindex = 0;
 
 void printarr()
 {
+  Serial.println("Month,Day,Time of Day,Relative Humidity,Target Temperature");
   for (int i = 0; i < arrindex; i++)
   {
     dparr[i]->printdp();
